@@ -1,0 +1,370 @@
+.blog{
+    background-color: rgb(255, 255, 255);
+}
+
+/*blog section info*/
+.date{
+    padding: 10px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.collab {
+    padding: 10px;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 25px;
+    font-style: italic;
+
+}
+.langages{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.right a{
+    text-decoration: none;
+    color:rgb(233, 144, 10);
+    margin-left:50px;
+    padding: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.right a:hover{
+    color:chartreuse;
+    text-shadow: darkred;
+}
+.description{
+    margin-bottom: 15px;
+}
+.articles{
+    margin-top: 30px;
+    --outline: rgb(13, 58, 34);
+}
+
+.articles h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(21, 85, 29);
+    margin-top: 40px;
+}
+
+.articles .feuilleR{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(38, 121, 74);
+    justify-content: center;
+    padding: 25px;
+    border-radius:200px 2px 200px 30px ;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+
+.articles .feuilleL{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(51, 175, 105);
+    justify-content: center;
+    padding: 25px;
+    border-radius:2px 200px 30px 200px ;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+
+}
+
+.articles .left img{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 500px;
+    border-radius:10px 10px 10px 10px ;
+    margin-right: 4%;
+    margin-top: 14%;
+    margin-bottom: 10%;
+}
+
+.articles .right{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin-left: 7%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.articles div div h2 {
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(145, 184, 139);
+    text-align: center;
+    width: 100%;
+    text-shadow:2px 2px 2px rgba(21, 88, 47, 0.753);
+}
+
+/*blog section cinéma*/
+
+.articles2{
+    margin-top: 30px;
+    --outline: rgb(168, 80, 33);
+}
+
+.articles2 h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(212, 89, 7);
+    margin-top: 40px;
+}
+
+.articles2 .feuilleR{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(143, 59, 10);
+    justify-content: center;
+    padding: 25px;
+    border-radius:200px 2px 200px 30px ;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+
+.articles2 .feuilleL{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(167, 67, 21);
+    justify-content: center;
+    padding: 25px;
+    border-radius:2px 200px 30px 200px ;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 10%;
+
+}
+
+.articles2 .left img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 500px;
+    border-radius:10px 10px 10px 10px ;
+    margin-right: 4%;
+
+
+}
+
+.articles2 .right{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin-left: 7%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+
+.articles2 div div h1{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(197, 163, 12);
+    text-align: center;
+    text-shadow:2px 2px 2px rgba(128, 54, 5, 0.753);
+}
+
+/*blog section arts*/
+
+.articles3{
+    margin-top: 30px;
+    --outline: rgb(8, 98, 16);
+}
+
+.articles3 h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(106, 212, 7);
+    margin-top: 40px;
+}
+
+.articles3 .feuilleR{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(57, 175, 2);
+    justify-content: center;
+    padding: 25px;
+    border-radius:200px 2px 200px 30px ;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+
+.articles3 .feuilleL{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color:rgb(122, 190, 32);
+    justify-content: center;
+    padding: 25px;
+    border-radius:2px 200px 30px 200px ;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 10%;
+
+}
+
+.articles3 .left img{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 300px;
+    max-width: 500px;
+    border-radius:10px 10px 10px 10px ;
+    margin-right: 4%;
+    outline: thick double rgba(11, 82, 21, 0.931);
+}
+
+.articles3 .right{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin-left: 7%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.articles3 div div h1{
+    display: flex;
+    flex-wrap: wrap;
+    color:rgb(56, 102, 49);
+    text-align: center;
+    text-shadow:2px 2px 2px rgba(21, 88, 47, 0.753);
+}
+
+
+
+/*blog section livres*/
+
+.articles4 {
+    margin-top: 30px;
+    --outline: rgb(46, 35, 12);
+}
+
+.articles4 h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(92, 59, 22);
+    margin-top: 40px;
+}
+
+.articles4 .feuilleR{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 30px;
+    background-color:rgb(133, 99, 49);
+    justify-content: center;
+    padding: 25px;
+    border-radius:200px 2px 200px 30px ;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+
+.articles4 .feuilleL{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-bottom: 30px;
+    background-color:rgb(97, 66, 19);
+    justify-content: center;
+    padding: 25px;
+    border-radius:2px 200px 30px 200px ;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 10%;
+
+}
+
+.articles4 .left img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    width: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 4%;
+    margin-top: calc(20% + 100px);
+    margin-bottom: 1%;
+}
+
+.articles4 .right{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    margin-left: 7%;
+    margin-right: 2%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.articles4 div div h2 {
+    width: 100%;
+    color:rgb(230, 202, 179);
+    text-align: center;
+    text-shadow:2px 2px 2px rgba(240, 203, 181, 0.753);
+}
+
+.articles4 h5 {
+    font-size: 27px;
+    text-shadow: 1px 1px;
+    text-align: left;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.feuilleR, 
+.feuilleL {
+    outline: 0px var(--outline) solid;
+    opacity: 1;
+    transform: translateX(0%);
+
+    transition-property: outline, opacity, transform;
+    transition: .5s ease-in-out;
+    will-change: outline, opacity, transform;
+}
+
+.feuilleR:hover,
+.feuilleL:hover {
+    outline: 3px var(--outline) solid;
+}
+
+/* ANIM */
+.feuilleR.hidden,
+.feuilleL.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.feuilleR.hidden {
+    transform: translateX(50%);
+}

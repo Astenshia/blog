@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/*font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+/*font-family: 'Rajdhani', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/*font-family: 'Satisfy', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+/*font-family: 'Kalam', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+/*font-family: 'Merienda', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+/*font-family: 'Shadows Into Light Two', cursive;*/
+
+:root {
+    --nav-size: 100px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    cursor: url(https://cur.cursors-4u.net/anime/ani-9/ani879.ani), url(https://cur.cursors-4u.net/anime/ani-9/ani879.png), auto !important;
+}
+
+/* Couleur de selection */
+*::selection {
+    background-color: rgb(127, 255, 131);
+    color: rgb(27, 54, 12);
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgb(255, 255, 255);
+    /*
+    background-image: url(img/cats.png);
+    filter:opacity(0.20) hue-rotate(300) url('#teal-white') */;
+}
+
+.homepicture{
+    max-height: 500px;
+    overflow: hidden;
+    
+}
+.homepicture img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.presentation {
+    border:thick double rgb(8, 70, 34);
+    margin: 2%;
+    background-color: rgb(220, 249, 225);
+    
+}
+
+.presentation h6{
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: rgb(8, 70, 34);
+    text-shadow: 2px 2px rgba(32, 153, 92, 0.562);
+    margin-bottom: 1%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.presentation p{
+    color: rgb(8, 70, 34);
+    font-weight:bold;
+    margin: 3%;
+    text-align: justify;
+
+}
+
+
+/*Le footer*/
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:rgb(21, 85, 29);
+    background-color: rgb(179, 247, 202);
+    height: 30px;
+    padding: 20px;
+}
+
+footer h2{
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+footer .social-media{
+    display: flex;
+}
+
+footer .social-media p{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+
+
+
+/*Adaptation mobile*/
+
+@media screen and (max-width:640px){
+    body{
+        margin: 10px 20px;
+
+    }
+
+    nav .onglets{
+        margin-top: 10px;
+    }
+
+    
+
+    footer .social-media{
+        margin-top: -20px;
+    }
+
+    .collab{
+        font-size: 20px;
+    }
+
+    
+    .feuilles .feuillelinkright a{
+        padding: 20px;
+    }
+    
+    
+    .feuilles .feuillelinkleft a{
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    
+    .articles .feuilleR{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+
+    
+    }
+    
+    .articles .feuilleL{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    
+    }
+    
+    .articles .feuilleL .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 20px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .articles .feuilleR .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 11%;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .articles .right{
+        margin-left: -10%;
+        margin-right: -2%;
+        text-align: center;
+        min-width: 80%;
+    }
+    
+    .articles div div h1{
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    /*films*/
+    .articles2 .feuilleR{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+
+    
+    }
+    
+    .articles22 .feuilleL{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    
+    }
+    
+    .articles2 .feuilleL .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 20px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .articles2 .feuilleR .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 11%;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .articles2 .right{
+        margin-left: -10%;
+        margin-right: -2%;
+        text-align: center;
+        min-width: 80%;
+    }
+    
+    .articles2 div div h1{
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    /*art*/
+    .articles3 .feuilleR{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+
+    
+    }
+
+    .articles .right{
+        font-size: 20px;
+    }
+
+    .articles2 .right{
+        font-size: 20px;
+    }
+    .articles3 .right{
+        font-size: 20px;
+    }
+    .articles4 .right{
+        font-size: 20px;
+    }
+    
+    .articles3 .feuilleL{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    
+    }
+    
+    .articles3 .feuilleL .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 20px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .articles3 .feuilleR .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 11%;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .articles3 .right{
+        margin-left: -10%;
+        margin-right: -2%;
+        text-align: center;
+        min-width: 80%;
+    }
+    
+    .articles3 div div h1{
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    /*livres*/
+    .articles4 .feuilleR{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+
+    
+    }
+    
+    .articles4 .feuilleL{
+        margin-bottom: 30px;
+        padding: 25px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    
+    }
+    
+    .articles4 .feuilleL .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 20px;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .articles4 .feuilleR .left img{
+        height: auto; 
+        width: 100%;
+        margin-top: 24%;
+        margin-right: 11%;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    .articles4 .right{
+        margin-left: -10%;
+        margin-right: -2%;
+        text-align: center;
+        min-width: 80%;
+    }
+    
+    .articles4 div div h1{
+        text-align: center;
+        margin-left: 15%;
+    }
+   
+
+
+}
