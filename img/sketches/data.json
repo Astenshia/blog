@@ -1,0 +1,9 @@
+[
+
+    {"name": "Panda", "img":"Panda.png"},
+    {"name": "SQUIZ", "img":"IMG-7075.JPG"},
+    {"name": "KURO", "img":"IMG-7081.JPG"},
+    {"name": "Chazelet", "img": "Chazelet.png", "extend": "true"}
+
+
+]

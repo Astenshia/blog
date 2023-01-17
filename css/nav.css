@@ -1,0 +1,96 @@
+/*La barre de nav*/
+nav {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:rgb(179, 247, 202);
+    /*background-image: url(img/cats.png);
+    filter:opacity(0.20);*/
+    
+    min-width: 100%;
+    max-width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+    height: var(--nav-size);
+
+    transition: .3s all ease-in-out;
+}
+
+#spacer {
+    height: var(--nav-size);
+    background-color: white;
+}
+
+nav.scrollview {
+    background-color: rgb(179, 247, 224, .5);
+}
+
+nav.goingdown {
+    top: -105px;
+}
+
+nav h1{
+    font-family: 'Lobster', cursive;
+    font-size: 420%; 
+    margin-top: 0.3%;
+    margin-left: 2%;
+    text-shadow: 2px 2px rgba(32, 153, 92, 0.562);
+    color:rgb(1, 97, 57);
+}
+
+nav .onglets{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+nav .onglets a{
+    position: relative;
+
+    text-decoration: none;
+    color:rgb(30, 156, 93);
+    margin-right: 15px;
+    text-shadow: 1px 1px 1px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 1rem 0;
+
+    transition: .2s all ease-in;
+}
+
+nav .onglets a:hover{
+    text-shadow: 0 2px 2px rgb(21, 85, 29);
+}
+
+/* small line */
+nav .onglets a::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: rgb(20, 65, 29);
+    transition: all .2s ease-in;
+}
+
+nav .onglets a:not(.active):hover::after {
+    left: 0;
+    width: 100%;
+    transition: all .2s ease-out;
+}
+
+nav .onglets a.active::after {
+    width: 100%;
+    left: 0;
+    transition: all .2s ease-out;
+}
+
+@media screen and (max-width:640px){
+
+}

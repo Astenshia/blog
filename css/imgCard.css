@@ -1,0 +1,87 @@
+.img-card.hidden {
+  opacity: 0;
+  transition: opacity .2s ease-in;
+}
+
+.img-card {
+  /* Change img card background color */
+  --bg: rgb(33, 165, 51, 0.958);
+  transition: opacity .5s ease-in;
+  opacity: 1;
+  width: fit-content;
+  max-width: 300px;
+  height: fit-content;
+  padding: 8px;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  padding-bottom: 40px;
+  box-sizing: content-box;
+}
+
+.img-card.extend {
+  max-width: 500px;
+}
+
+.img-card-wrap {
+  padding: 8px;
+  background-color: var(--bg);
+  position: relative;
+  border-radius: 5px;
+  
+  transform: translate(0, 0);
+  box-shadow: 0 0 0 0 #000;
+  transition: all .2s ease-in-out;
+}
+
+.img-card-wrap:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 8px 8px 0 0 #000;
+}
+
+.img-card-wrap,
+.img-card img,
+.img-card-title p {
+  border: 1px #000 solid;
+}
+
+.img-card img {
+    width: 100%;
+}
+
+.img-card-title {
+  width: 100%;
+  bottom: -8px;
+  left: 0;
+  text-align: center;
+  position: absolute;
+  height: 40px;
+  transition: transform .2s ease-in;
+}
+
+.img-card-title p {
+  font-family: "Rajdhani", sans-serif;
+  background-color: var(--bg);
+  padding: 8px;
+  min-width: 30%;
+  font-weight: bold;
+  width: fit-content;
+  max-width: 75%;
+  height: 25px;
+  line-height: 200%;
+  overflow: hidden;
+  margin-inline: auto;
+
+  transition: all .2s ease-in;
+}
+
+.img-card-wrap:hover .img-card-title p {
+  height: 100%;
+  line-height: 100%;
+  transition: all .2s ease-out;
+}
+
+.img-card-wrap:hover .img-card-title {
+  transform: translateY(calc(-100% - 8px));
+  transition: transform .2s ease-out;
+}
