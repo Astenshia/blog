@@ -10,6 +10,8 @@
 /*font-family: 'Merienda', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 /*font-family: 'Shadows Into Light Two', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+/*font-family: 'Share Tech', sans-serif;*/
 
 :root {
     --nav-size: 100px;
@@ -50,31 +52,36 @@ body {
 
 .presentation {
     border:thick double rgb(8, 70, 34);
-    margin: 2%;
+    margin: 5%;
     background-color: rgb(220, 249, 225);
     position: relative;
+    font-size: 20px;
+    padding: 30px;
 
-    
 }
+
+.presentation p{
+    line-height: 1.6 ;
+    color: rgb(8, 70, 34);
+    font-weight:bold;
+    margin: 1.4%;
+    text-align: justify;
+    font-family:'Share Tech', sans-serif;
+    font-size: 27px;
+
+}
+
+
 
 
 
 .presentation h6{
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Lobster', cursive;
     color: rgb(8, 70, 34);
     text-shadow: 2px 2px rgba(32, 153, 92, 0.562);
-    margin-bottom: 1%;
-    margin-top: 2%;
+    margin-bottom: 30px;
     text-align: center;
-}
-
-.presentation p{
-    color: rgb(8, 70, 34);
-    font-weight:bold;
-    margin: 3%;
-    text-align: justify;
-
 }
 
 
